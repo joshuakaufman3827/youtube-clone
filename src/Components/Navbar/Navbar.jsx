@@ -30,9 +30,7 @@ const Navbar = () => {
         <img src={notification_icon} alt="" />
         <img src={profile_icon} className='user-icon' alt="" />
     </div>
-
-
-    </nav>
+  </nav>
   )
 }
 

@@ -3,9 +3,9 @@ import './home.css'
 
 const App = () => {
   return (
-    <div>
-
-    </div>
+    <>
+      <Sidebar/>
+    </>
   )
 }
 
