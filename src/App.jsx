@@ -1,14 +1,14 @@
 import React from 'react'
 import Navbar from './Components/Navbar/Navbar'
 import { Route, Routes } from 'react-router-dom'
-import home from './Pages/home/home'
+import Home from './Pages/Home/home'
 
 const App = () => {
   return (
     <div>
       <Navbar/>
       <Routes>
-        <Route path= '/'  element={<home/>} />
+        <Route path= '/'  element={<Home/>} />
         <Route path='/video/:categoryID/:videoID' element={<video/>} />
       </Routes>
       

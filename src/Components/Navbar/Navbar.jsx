@@ -13,7 +13,7 @@ import profile_icon from "../../assets/jack.png";
 const Navbar = () => {
   return (
     <nav className='flex-div'>
-        <div ClassName='nav-left flex-div'>
+        <div className='nav-left flex-div'>
             <img className='menu-icon' src={menu_icon} alt="" />
             <img className='logo' src={logo} alt="" />
     </div>

@@ -1,7 +1,8 @@
 import React from 'react'
-import './home.css'
+import Sidebar from "../../Components/sidebar/Sidebar";
+import './home.css';
 
-const App = () => {
+const Home = () => {
   return (
     <>
       <Sidebar/>
@@ -9,4 +10,4 @@ const App = () => {
   )
 }
 
-export default home
+export default Home
