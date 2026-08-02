@@ -5,8 +5,8 @@ import './home.css';
 const Home = ({sidebar}) => {
   return (
     <>
-      <Sidebar Sidebar={Sidebar}/>
-      <div className={`container ${Sidebar?"":'large-container'}`}>
+      <Sidebar sidebar={sidebar}/>
+      <div className={`container ${sidebar? "" : "large-container"}`}>
         <feed/>
       </div>
     </>
