@@ -1,5 +1,5 @@
-import React from 'react'
-import '.Feed.css'
+import React from 'react';
+import '.Feed.css';
 import thumbnail1 from "../../assets/thumbnail1.png";
 import thumbnail2 from "../../assets/thumbnail2.png";
 import thumbnail3 from "../../assets/thumbnail3.png";
