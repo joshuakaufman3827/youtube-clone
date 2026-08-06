@@ -3,7 +3,8 @@ import './video.css'
 
 const App = () => {
   return (
-    <div>
+    <div className='play-container'>
+       <Playvideo/>
 
     </div>
   )
