@@ -13,7 +13,7 @@ import thumbnail8 from "../../assets/thumbnail8.png";
 const Feed = () => {
     return (
         <div className='Feed'>
-         <Link to={`Video/20/4521`} className='card'>
+         <Link to="/video/20/4521" className="card">
             <img src={thumbnail1} alt=""/>
             <h2> Best channel to learn coding that helps you to be a web developer</h2>
             <h3>Greatstack</h3>

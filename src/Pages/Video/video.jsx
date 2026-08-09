@@ -1,13 +1,19 @@
-import React from 'react'
-import './video.css'
+import React from "react";
+import "./video.css";
+import playVideo from "../../Components/playVideo/playVideo";
+import Sidebar from "../../Components/Sidebar/Sidebar";
+import Recommended from "../../Components/Recommended/recommended";
 
-const App = () => {
+const Video = () => {
   return (
     <div className='play-container'>
-       <Playvideo/>
-
+      <playvideo />
+      <Recommended />
+      <Sidebar />
     </div>
-  )
-}
+  );
+};
 
-export default Video
+export default Video;
+
+

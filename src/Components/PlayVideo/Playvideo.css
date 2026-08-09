@@ -1,0 +1,137 @@
+.play-video {
+    flex-basis: 69%;
+}
+
+.play-video video {
+    width: 100%;
+}
+
+.play-video h3 {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.play-video-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #999;
+}
+
+.play-video-info img {
+    margin-right: 8px;
+    width: 20px;
+}
+
+.play-video-info span {
+    margin-left: 20px;
+    align-items: center;
+    display: inline-flex;
+}   
+
+.play-video-info hr {
+    border: 0;
+    height: 1px;
+    background: #e0e0e0;
+    margin: 10px 0;
+}
+
+.publisher {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.publisher div {
+    flex: 1;
+    line-height: 18px;
+}
+
+.publisher img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.publisher div p {
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.publisher div span {
+    color: #999;
+    font-size: 14px;
+}
+
+.publisher button {
+    background: red;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.vid-description p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #999;
+    line-height: 20px;
+}
+
+.vid-description h4 {
+    font-size: 16px;
+    color: #000;
+    margin-top: 20px;    
+}
+
+.comment {
+   display: flex;
+   align-items: flex-start;
+   margin: 20px 0; 
+}
+
+.comment img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.comment h3 {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.comment h3 span {
+    font-size: 12px;
+    color: #999;
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+.comment-actions {
+    display: flex;
+    align-items: center;
+    margin: 5px 0px;
+    font-size: 14px;
+}
+
+.comment-actions img {
+    border-radius: 0;
+    width: 20px;
+    margin-right: 5%;
+    color: #999;
+}
+
+
+
